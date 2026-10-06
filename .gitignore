@@ -1,0 +1,20 @@
+# Build output
+bin/
+ 
+# NOTE: the bpf2go generated files (*_bpfel.go, *_bpfeb.go, *.o) are NOT ignored
+# on purpose, so the project builds without clang.
+ 
+# Python
+__pycache__/
+*.pyc
+.venv/
+ 
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+ 
+# Logs
+*.log
+ 
